@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	font-family: 'Bubblegum Sans';font-size: 22px;
+	background-image: url(https://media.macphun.com/img/uploads/customer/blog/1543597882/15435984725c017188f41eb1.29284408.jpg?q=85&w=1680);
+	min-width: 100%;
+  	min-height: 100%;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+h1{
+	background-color: green;
+	color: white;
+
+}
+.form1{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.form1 label{
+	margin: 5px 10px 5px 0;
+	color: 
+}
+.form1 input,textarea{
+	vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.flexbox{
+	display: flex;
+	border-width: 100%;
+	border:3px solid;
+	border-color: red;
+}
+@media (max-width: 800px) {
+  .form1 input {
+    margin: 10px 0;
+  }
+  
+  .form1 {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}

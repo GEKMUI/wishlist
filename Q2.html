@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Christmas Holiday</title>
+	<link rel="stylesheet" type="text/css" href="Q2style.css">
+	<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<script>
+	function validate()
+		{
+			if(document.form1.name.value.lenght < 1)
+			{
+				alert("Hey Enter Your name to remember u");
+				return false;
+			}
+			if(document.form1.wish.value.lenght < 1);
+			{
+				alert("hey enter your wish list for more comments to us");
+				return false;
+			}
+			return true;
+		}
+</script>
+<body>
+	<h1>Christmas Present Wish List</h1>
+
+	<div class="flexbox">
+		<form class="form1" name="wishlist" method="post" action="mailto:candyng1019@gmail.com" enctype="text/plain" onsubmit="return validate();">
+		<label for="name">Name:</label>
+		<input type="text" placeholder="Enter Name" name="name">
+		<label for="age">Age:</label>
+		<input type="text" placeholder="Enter Your age" name="age">
+		<label for="wish">Christmas Present Wish List:</label>
+		<textarea name="wish" placeholder="Write something.." style="height:200px"></textarea>
+
+		  <button type="submit">Submit</button>
+	</div>
+
+	
+		
+	</form>
+
+</body>
+</html>
